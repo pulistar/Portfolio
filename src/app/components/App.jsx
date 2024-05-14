@@ -24,19 +24,16 @@ function App() {
         <Inicio/>
         <Proyectos/>
         <Habilidades/>
-        <Contactos/>
+        
       
       </main>
         
-      
+      <footer>
+        <Contactos/>  
+
+      </footer>
       
 
-        
-
-   
-      
-      
-      
     </div>
   );
 }

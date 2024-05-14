@@ -33,7 +33,10 @@ export default {
           'cerulean': '#0c4a6e',
           'pizarra': '#0f172a',
           'cielo': '#0c4a6e',
-          'pizarra': '#0f172a',
+          'silver': '#bdc3c7',
+          'gray': '#e5e7eb',
+          'cian': '#083344',
+          'hola': '#16213d'
 
 
         },

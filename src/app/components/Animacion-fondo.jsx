@@ -1,5 +1,3 @@
-
-
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
 import React, { useEffect, useState } from 'react';

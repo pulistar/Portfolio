@@ -1,40 +1,33 @@
 import React from 'react';
-import { BsFacebook, BsInstagram, BsPinterest, BsTwitter } from 'react-icons/bs';
+import { BsEnvelope, BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const Contactos = () => {
   return (
     <>
-      <div id='contactos'>
-        <div className='w-1/3 ssm:w-fit'>
-            
-            <p className='text-4xl mb-4'> esto es practica</p>
-            <p className=' text-slate-300'>
+      <footer className=" py-10">
 
-                pura practica para una nueva version del portafolio
-
-            </p>
-            <button className='bg-white text-indigo-600 px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white '>
-
-                sigue adelante..
-
-            </button>
-
-            <div className='flex mt-5 space-x-4 cursor-pointer'>
-              
-                <BsFacebook size={40} className='border-4 hover:border-indigo-800 rounded-full'/>
-                <BsTwitter size={40} className='border-4 hover:border-indigo-800 rounded-full'/>
-                <BsInstagram size={40} className='border-4 hover:border-indigo-800 rounded-full'/>
-                <BsPinterest size={40} className='border-4 hover:border-indigo-800 rounded-full'/>
-                
-            </div>
-
+        <div id='proyectos' className="text-white mt-20 mb-8 flex flex-col text-center items-center">
+          <h1 className="text-4xl font-roboto mb-3">Contactos</h1>
+          <span className="bg-blue-600 w-32 h-3 mb-2 rounded-full"></span>
         </div>
-      </div>
-    
-    
-    
-    
-    
+
+        <div id='contactos' className='mt-3 mb-7 flex justify-center'>
+          <div className='flex space-x-8 text-white'>
+
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <BsLinkedin size={40} className='border-4 border-transparent hover:border-blue-800 rounded-full transition duration-300 ease-in-out'/>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <BsGithub size={40} className='border-4 border-transparent hover:border-red-500 rounded-full transition duration-300 ease-in-out'/>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <BsEnvelope size={40} className='border-4 border-transparent hover:border-pink-300 rounded-full transition duration-300 ease-in-out'/>
+            </a>
+
+          </div>
+        </div>
+        
+      </footer>
     </>
   )
 }

@@ -11,6 +11,7 @@ const Proyectos = () => {
     { id: 2, nombre: 'SISTEMA DE LA HOJA', imagen: hoja, github: 'https://github.com/usuario/hoja', demo: 'https://tudemo.com/hoja' },
     { id: 3, nombre: 'SISTEMA DE NOCHE', imagen: noche, github: 'https://github.com/usuario/noche', demo: 'https://tudemo.com/noche' },
     { id: 4, nombre: 'SISTEMA DE ROBOT', imagen: robot, github: 'https://github.com/usuario/robot', demo: 'https://tudemo.com/robot' },
+
   ];
 
   return (
@@ -30,9 +31,8 @@ const Proyectos = () => {
                   <a href={proyecto.github} className=' gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm  ' target="_blank" >GitHub</a>
                   <a href={proyecto.demo} className=' gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm' target="_blank">Demo</a>
                 </div>
-              </div>
             </div>
-          
+          </div> 
         ))}
       </div>
     </>

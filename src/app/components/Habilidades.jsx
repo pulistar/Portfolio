@@ -2,13 +2,12 @@ import React from 'react';
 import 'tailwindcss/tailwind.css';
 import corazon from '../../assets/imagenes/corazon.jpg';
 import hoja from '../../assets/imagenes/hoja.jpg';
-import js from '../../assets/imagenes/js.svg';
 import noche from '../../assets/imagenes/noche.jpg';
 import robot from '../../assets/imagenes/robot.jpg';
 
 const Proyectos = () => {
   const proyectos = [
-    { id: 1, nombre: 'python', imagen: js},
+    { id: 1, nombre: 'python', imagen: corazon},
     { id: 2, nombre: 'python', imagen: hoja},
     { id: 3, nombre: 'python', imagen: noche},
     { id: 4, nombre: 'python', imagen: robot},
@@ -20,6 +19,7 @@ const Proyectos = () => {
     { id: 10, nombre: 'python', imagen: hoja},
     { id: 11, nombre: 'python', imagen: noche},
     { id: 12, nombre: 'python', imagen: robot},
+    { id: 13, nombre: 'python', imagen: robot},
   ];
 
   return (
@@ -31,7 +31,8 @@ const Proyectos = () => {
 
       <div className="w-full  flex items-center justify-center">
         <div className="md:w-2/4 text-white">
-          <div className="flex flex-wrap justify-center">
+        
+          <div className="flex flex-wrap justify-center grid-cols-2">
             {proyectos.map((proyecto) => (
               <div key={proyecto.id} className="w-40 h-16 p-1">
                 <div className="border border-white h-full rounded-md bg-gray-800">

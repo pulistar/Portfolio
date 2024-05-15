@@ -29,7 +29,7 @@ const Proyectos = () => {
         <span className="bg-blue-600 w-32 h-3 mb-2 rounded-full"></span>
       </div>
 
-      <div className="w-full  flex items-center justify-center grid-cols-7">
+      <div className="w-full  flex items-center justify-center ">
         <div className="md:w-2/4 text-white">
         
           <div className="flex flex-wrap justify-center sm:grid-cols-2">

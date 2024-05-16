@@ -24,6 +24,7 @@ function App() {
         <Inicio/>
         <Proyectos/>
         <Habilidades/>
+     
         <Contactos/>
         
       

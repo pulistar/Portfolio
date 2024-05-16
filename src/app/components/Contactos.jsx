@@ -4,14 +4,14 @@ import { BsEnvelope, BsGithub, BsLinkedin } from 'react-icons/bs';
 const Contactos = () => {
   return (
     <>
-      <footer className=" py-10">
+      <footer id='contactos' className=" py-10">
 
-        <div id='proyectos' className="text-white mt-20 mb-8 flex flex-col text-center items-center">
+        <div  className="text-white mt-20 mb-8 flex flex-col text-center items-center">
           <h1 className="text-4xl font-roboto mb-3">Contactos</h1>
           <span className="bg-blue-600 w-32 h-3 mb-2 rounded-full"></span>
         </div>
 
-        <div id='contactos' className='mt-3 mb-7 flex justify-center'>
+        <div  className='mt-3 mb-7 flex justify-center'>
           <div className='flex space-x-8 text-white'>
 
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

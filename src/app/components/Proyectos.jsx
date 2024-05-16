@@ -24,12 +24,12 @@ const Proyectos = () => {
       <div className="flex flex-wrap justify-center items-center text-white">
         {proyectos.map((proyecto) => (
           <div key={proyecto.id} className="m-4 w-full sm:w-1/3">
-            <div className="border border-gray-300 p-4 rounded-md bg-gray-800">
-              <img src={proyecto.imagen} alt={proyecto.nombre} className="w-full h-64 object-cover rounded-md" />
+            <div className="border border-gray-300 p-4 rounded-md ">
+              <img src={proyecto.imagen} alt={proyecto.nombre} className="w-full h-64  rounded-md" />
                 <h2 className="font-bold mt-5 text-xl text-center">{proyecto.nombre}</h2>
                 <div className="flex justify-center gap-10 mt-4">
-                  <a href={proyecto.github} className=' gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm  ' target="_blank" >GitHub</a>
-                  <a href={proyecto.demo} className=' gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm' target="_blank">Demo</a>
+                  <a href={proyecto.github} className=' p-2 px-4 py-1 rounded-full bg-white/15  ' target="_blank" >GitHub</a>
+                  <a href={proyecto.demo} className=' p-2 px-4 py-1 rounded-full bg-white/15 ' target="_blank">Demo</a>
                 </div>
             </div>
           </div> 

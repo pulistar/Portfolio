@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { DiAngularSimple, DiCss3, DiDocker, DiGit, DiHtml5, DiJava, DiJsBadge, DiMysql, DiNodejs, DiPostgresql, DiPython, DiReact } from 'react-icons/di';
 import 'tailwindcss/tailwind.css';
 
@@ -16,12 +17,15 @@ const Habilidades = () => {
     { id: 10, nombre: 'Angular', icono: <DiAngularSimple size={24} /> },
     { id: 11, nombre: 'Docker', icono: <DiDocker size={24} /> },
     { id: 12, nombre: 'Postgres', icono: <DiPostgresql size={24} /> },
+    
   ];
+
+  const { t } = useTranslation();
 
   return (
     <>
       <div id='habilidades' className="text-white mt-20 mb-8 flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-roboto mb-3">Habilidades</h1>
+        <h1 className="text-4xl font-roboto mb-3">{t('skills')}</h1> 
         <span className="bg-blue-600 w-32 h-3 mb-2 rounded-full"></span>
       </div>
 

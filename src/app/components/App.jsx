@@ -9,12 +9,9 @@ import Proyectos from './Proyectos';
 
 function App() {
   return (
-    
-    <div className='bg-pizarra '>
-      
 
-     
-      
+    <div className='bg-pizarra '>
+
       <header className="sticky top-0 z-80   backdrop-blur-lg bg-gradient-to-b from-black  ">
         <Menu />
       </header>
@@ -24,15 +21,9 @@ function App() {
         <Inicio/>
         <Proyectos/>
         <Habilidades/>
-     
-        <Contactos/>
-        
-      
+        <Contactos/>  
       </main>
-        
-  
-      
-
+    
     </div>
   );
 }

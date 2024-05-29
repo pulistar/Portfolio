@@ -17,10 +17,10 @@ const Contactos = () => {
         <div className='mt-3 mb-7 flex justify-center'>
           <div className='flex space-x-8 text-white'>
 
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/camiloandres-pulistarlopez-6b432a267/" target="_blank" rel="noopener noreferrer">
               <BsLinkedin size={40} className='border-4 border-transparent hover:border-blue-800 rounded-full transition duration-300 ease-in-out' />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/pulistar" target="_blank" rel="noopener noreferrer">
               <BsGithub size={40} className='border-4 border-transparent hover:border-red-500 rounded-full transition duration-300 ease-in-out' />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

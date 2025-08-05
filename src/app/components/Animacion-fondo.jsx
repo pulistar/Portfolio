@@ -1,6 +1,6 @@
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const AnimacionFondo = () => {
     const [init, setInit] = useState(false);
@@ -16,7 +16,7 @@ const AnimacionFondo = () => {
 
     return (
         init && (
-            <div className="w-[0px]">
+            <div className="fixed inset-0 z-0 bg-pizarra">
                 <Particles
                     id="tsparticles"
                     options={{

@@ -1,0 +1,17 @@
+CV_CAMILO_PULISTAR_PLACEHOLDER.txt
+
+Este es un archivo placeholder para el CV de Camilo Pulistar.
+Para usar la funcionalidad de descarga de CV, reemplaza este archivo con tu CV real en formato PDF.
+
+El archivo debe llamarse: cv-camilo.pdf
+Y estar ubicado en la carpeta: public/
+
+Estructura sugerida del CV:
+- Información personal
+- Resumen profesional
+- Experiencia laboral
+- Educación
+- Habilidades técnicas
+- Proyectos destacados
+- Certificaciones
+- Referencias 
